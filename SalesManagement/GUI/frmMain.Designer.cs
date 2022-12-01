@@ -60,7 +60,7 @@
             // 
             // guna2Panel1
             // 
-            this.guna2Panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
+            this.guna2Panel1.BackColor = System.Drawing.Color.DarkKhaki;
             this.guna2Panel1.Controls.Add(this.btnEmployee);
             this.guna2Panel1.Controls.Add(this.btnStatistic);
             this.guna2Panel1.Controls.Add(this.guna2Separator1);
@@ -71,9 +71,11 @@
             this.guna2Panel1.Controls.Add(this.btnProduct);
             this.guna2Panel1.Controls.Add(this.guna2PictureBox1);
             this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.guna2Panel1.ForeColor = System.Drawing.Color.Black;
             this.guna2Panel1.Location = new System.Drawing.Point(0, 0);
+            this.guna2Panel1.Margin = new System.Windows.Forms.Padding(4);
             this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(200, 609);
+            this.guna2Panel1.Size = new System.Drawing.Size(267, 750);
             this.guna2Panel1.TabIndex = 0;
             // 
             // btnEmployee
@@ -92,12 +94,13 @@
             this.btnEmployee.FillColor = System.Drawing.Color.Empty;
             this.btnEmployee.FillColor2 = System.Drawing.Color.Empty;
             this.btnEmployee.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.btnEmployee.ForeColor = System.Drawing.Color.White;
+            this.btnEmployee.ForeColor = System.Drawing.Color.Black;
             this.btnEmployee.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(62)))), ((int)(((byte)(103)))));
             this.btnEmployee.HoverState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
-            this.btnEmployee.Location = new System.Drawing.Point(3, 401);
+            this.btnEmployee.Location = new System.Drawing.Point(4, 494);
+            this.btnEmployee.Margin = new System.Windows.Forms.Padding(4);
             this.btnEmployee.Name = "btnEmployee";
-            this.btnEmployee.Size = new System.Drawing.Size(194, 45);
+            this.btnEmployee.Size = new System.Drawing.Size(259, 55);
             this.btnEmployee.TabIndex = 3;
             this.btnEmployee.Text = "Nhân viên";
             this.btnEmployee.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -120,13 +123,15 @@
             this.btnStatistic.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnStatistic.FillColor = System.Drawing.Color.Empty;
             this.btnStatistic.FillColor2 = System.Drawing.Color.Empty;
+            this.btnStatistic.FocusedColor = System.Drawing.Color.Olive;
             this.btnStatistic.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.btnStatistic.ForeColor = System.Drawing.Color.White;
+            this.btnStatistic.ForeColor = System.Drawing.Color.Black;
             this.btnStatistic.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(62)))), ((int)(((byte)(103)))));
             this.btnStatistic.HoverState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
-            this.btnStatistic.Location = new System.Drawing.Point(3, 146);
+            this.btnStatistic.Location = new System.Drawing.Point(4, 180);
+            this.btnStatistic.Margin = new System.Windows.Forms.Padding(4);
             this.btnStatistic.Name = "btnStatistic";
-            this.btnStatistic.Size = new System.Drawing.Size(194, 45);
+            this.btnStatistic.Size = new System.Drawing.Size(259, 55);
             this.btnStatistic.TabIndex = 9;
             this.btnStatistic.Text = "Thống kê";
             this.btnStatistic.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -137,9 +142,10 @@
             // guna2Separator1
             // 
             this.guna2Separator1.FillColor = System.Drawing.Color.Gray;
-            this.guna2Separator1.Location = new System.Drawing.Point(3, 475);
+            this.guna2Separator1.Location = new System.Drawing.Point(4, 585);
+            this.guna2Separator1.Margin = new System.Windows.Forms.Padding(4);
             this.guna2Separator1.Name = "guna2Separator1";
-            this.guna2Separator1.Size = new System.Drawing.Size(200, 10);
+            this.guna2Separator1.Size = new System.Drawing.Size(267, 12);
             this.guna2Separator1.TabIndex = 3;
             // 
             // btnLogout
@@ -158,12 +164,13 @@
             this.btnLogout.FillColor = System.Drawing.Color.Empty;
             this.btnLogout.FillColor2 = System.Drawing.Color.Empty;
             this.btnLogout.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.btnLogout.ForeColor = System.Drawing.Color.White;
+            this.btnLogout.ForeColor = System.Drawing.Color.Black;
             this.btnLogout.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(62)))), ((int)(((byte)(103)))));
             this.btnLogout.HoverState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
-            this.btnLogout.Location = new System.Drawing.Point(0, 564);
+            this.btnLogout.Location = new System.Drawing.Point(0, 695);
+            this.btnLogout.Margin = new System.Windows.Forms.Padding(4);
             this.btnLogout.Name = "btnLogout";
-            this.btnLogout.Size = new System.Drawing.Size(200, 45);
+            this.btnLogout.Size = new System.Drawing.Size(267, 55);
             this.btnLogout.TabIndex = 8;
             this.btnLogout.Text = "Đăng xuất";
             this.btnLogout.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -187,12 +194,13 @@
             this.btnAccount.FillColor = System.Drawing.Color.Empty;
             this.btnAccount.FillColor2 = System.Drawing.Color.Empty;
             this.btnAccount.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.btnAccount.ForeColor = System.Drawing.Color.White;
+            this.btnAccount.ForeColor = System.Drawing.Color.Black;
             this.btnAccount.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(62)))), ((int)(((byte)(103)))));
             this.btnAccount.HoverState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
-            this.btnAccount.Location = new System.Drawing.Point(3, 350);
+            this.btnAccount.Location = new System.Drawing.Point(4, 431);
+            this.btnAccount.Margin = new System.Windows.Forms.Padding(4);
             this.btnAccount.Name = "btnAccount";
-            this.btnAccount.Size = new System.Drawing.Size(194, 45);
+            this.btnAccount.Size = new System.Drawing.Size(259, 55);
             this.btnAccount.TabIndex = 7;
             this.btnAccount.Text = "Tài khoản";
             this.btnAccount.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -216,12 +224,13 @@
             this.btnBill.FillColor = System.Drawing.Color.Empty;
             this.btnBill.FillColor2 = System.Drawing.Color.Empty;
             this.btnBill.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.btnBill.ForeColor = System.Drawing.Color.White;
+            this.btnBill.ForeColor = System.Drawing.Color.Black;
             this.btnBill.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(62)))), ((int)(((byte)(103)))));
             this.btnBill.HoverState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
-            this.btnBill.Location = new System.Drawing.Point(3, 299);
+            this.btnBill.Location = new System.Drawing.Point(4, 368);
+            this.btnBill.Margin = new System.Windows.Forms.Padding(4);
             this.btnBill.Name = "btnBill";
-            this.btnBill.Size = new System.Drawing.Size(194, 45);
+            this.btnBill.Size = new System.Drawing.Size(259, 55);
             this.btnBill.TabIndex = 6;
             this.btnBill.Text = "Hoá đơn";
             this.btnBill.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -245,12 +254,13 @@
             this.btnCustomer.FillColor = System.Drawing.Color.Empty;
             this.btnCustomer.FillColor2 = System.Drawing.Color.Empty;
             this.btnCustomer.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.btnCustomer.ForeColor = System.Drawing.Color.White;
+            this.btnCustomer.ForeColor = System.Drawing.Color.Black;
             this.btnCustomer.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(62)))), ((int)(((byte)(103)))));
             this.btnCustomer.HoverState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
-            this.btnCustomer.Location = new System.Drawing.Point(3, 248);
+            this.btnCustomer.Location = new System.Drawing.Point(4, 305);
+            this.btnCustomer.Margin = new System.Windows.Forms.Padding(4);
             this.btnCustomer.Name = "btnCustomer";
-            this.btnCustomer.Size = new System.Drawing.Size(194, 45);
+            this.btnCustomer.Size = new System.Drawing.Size(259, 55);
             this.btnCustomer.TabIndex = 5;
             this.btnCustomer.Text = "Khách hàng";
             this.btnCustomer.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -274,12 +284,13 @@
             this.btnProduct.FillColor = System.Drawing.Color.Empty;
             this.btnProduct.FillColor2 = System.Drawing.Color.Empty;
             this.btnProduct.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.btnProduct.ForeColor = System.Drawing.Color.White;
+            this.btnProduct.ForeColor = System.Drawing.Color.Black;
             this.btnProduct.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(62)))), ((int)(((byte)(103)))));
             this.btnProduct.HoverState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
-            this.btnProduct.Location = new System.Drawing.Point(3, 197);
+            this.btnProduct.Location = new System.Drawing.Point(4, 242);
+            this.btnProduct.Margin = new System.Windows.Forms.Padding(4);
             this.btnProduct.Name = "btnProduct";
-            this.btnProduct.Size = new System.Drawing.Size(194, 45);
+            this.btnProduct.Size = new System.Drawing.Size(259, 55);
             this.btnProduct.TabIndex = 4;
             this.btnProduct.Text = "Sản phẩm";
             this.btnProduct.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -291,11 +302,12 @@
             // 
             this.guna2PictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.guna2PictureBox1.Image = global::GUI.Properties.Resources.shopify_100px;
+            this.guna2PictureBox1.Image = global::GUI.Properties.Resources.sale_logo_removebg_preview;
             this.guna2PictureBox1.ImageRotate = 0F;
             this.guna2PictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.guna2PictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.Size = new System.Drawing.Size(200, 140);
+            this.guna2PictureBox1.Size = new System.Drawing.Size(267, 172);
             this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2PictureBox1.TabIndex = 3;
             this.guna2PictureBox1.TabStop = false;
@@ -309,9 +321,10 @@
             this.btnExit.FillColor = System.Drawing.Color.Transparent;
             this.btnExit.HoverState.FillColor = System.Drawing.Color.Red;
             this.btnExit.IconColor = System.Drawing.Color.White;
-            this.btnExit.Location = new System.Drawing.Point(891, 0);
+            this.btnExit.Location = new System.Drawing.Point(1188, 0);
+            this.btnExit.Margin = new System.Windows.Forms.Padding(4);
             this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(45, 29);
+            this.btnExit.Size = new System.Drawing.Size(60, 36);
             this.btnExit.TabIndex = 1;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
@@ -323,9 +336,10 @@
             this.guna2ControlBox2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.guna2ControlBox2.FillColor = System.Drawing.Color.Transparent;
             this.guna2ControlBox2.IconColor = System.Drawing.Color.White;
-            this.guna2ControlBox2.Location = new System.Drawing.Point(846, 0);
+            this.guna2ControlBox2.Location = new System.Drawing.Point(1128, 0);
+            this.guna2ControlBox2.Margin = new System.Windows.Forms.Padding(4);
             this.guna2ControlBox2.Name = "guna2ControlBox2";
-            this.guna2ControlBox2.Size = new System.Drawing.Size(45, 29);
+            this.guna2ControlBox2.Size = new System.Drawing.Size(60, 36);
             this.guna2ControlBox2.TabIndex = 2;
             // 
             // guna2DragControl1
@@ -336,13 +350,15 @@
             // 
             // guna2Panel2
             // 
+            this.guna2Panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.guna2Panel2.Controls.Add(this.btnExit);
             this.guna2Panel2.Controls.Add(this.guna2ControlBox1);
             this.guna2Panel2.Controls.Add(this.guna2ControlBox2);
             this.guna2Panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.guna2Panel2.Location = new System.Drawing.Point(200, 0);
+            this.guna2Panel2.Location = new System.Drawing.Point(267, 0);
+            this.guna2Panel2.Margin = new System.Windows.Forms.Padding(4);
             this.guna2Panel2.Name = "guna2Panel2";
-            this.guna2Panel2.Size = new System.Drawing.Size(936, 29);
+            this.guna2Panel2.Size = new System.Drawing.Size(1248, 36);
             this.guna2Panel2.TabIndex = 4;
             // 
             // guna2ControlBox1
@@ -353,18 +369,20 @@
             this.guna2ControlBox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.guna2ControlBox1.FillColor = System.Drawing.Color.Transparent;
             this.guna2ControlBox1.IconColor = System.Drawing.Color.White;
-            this.guna2ControlBox1.Location = new System.Drawing.Point(801, 0);
+            this.guna2ControlBox1.Location = new System.Drawing.Point(1068, 0);
+            this.guna2ControlBox1.Margin = new System.Windows.Forms.Padding(4);
             this.guna2ControlBox1.Name = "guna2ControlBox1";
-            this.guna2ControlBox1.Size = new System.Drawing.Size(45, 29);
+            this.guna2ControlBox1.Size = new System.Drawing.Size(60, 36);
             this.guna2ControlBox1.TabIndex = 3;
             // 
             // pnlBody
             // 
-            this.pnlBody.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(81)))));
+            this.pnlBody.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.pnlBody.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnlBody.Location = new System.Drawing.Point(200, 0);
+            this.pnlBody.Location = new System.Drawing.Point(267, 0);
+            this.pnlBody.Margin = new System.Windows.Forms.Padding(4);
             this.pnlBody.Name = "pnlBody";
-            this.pnlBody.Size = new System.Drawing.Size(936, 609);
+            this.pnlBody.Size = new System.Drawing.Size(1248, 750);
             this.pnlBody.TabIndex = 0;
             // 
             // guna2DragControl2
@@ -379,16 +397,17 @@
             // 
             // frmMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(81)))));
-            this.ClientSize = new System.Drawing.Size(1136, 609);
+            this.ClientSize = new System.Drawing.Size(1515, 750);
             this.Controls.Add(this.guna2Panel2);
             this.Controls.Add(this.pnlBody);
             this.Controls.Add(this.guna2Panel1);
             this.ForeColor = System.Drawing.Color.White;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Quản lý bán hàng";

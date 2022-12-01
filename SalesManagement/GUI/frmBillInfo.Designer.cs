@@ -74,11 +74,6 @@
             this.gvBillInfo.AllowUserToDeleteRows = false;
             dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
             this.gvBillInfo.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
-            this.gvBillInfo.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.gvBillInfo.BackgroundColor = System.Drawing.Color.White;
-            this.gvBillInfo.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.gvBillInfo.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            this.gvBillInfo.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
             dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 12F);
@@ -88,6 +83,7 @@
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.gvBillInfo.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.gvBillInfo.ColumnHeadersHeight = 35;
+            this.gvBillInfo.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
             dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 12F);
@@ -97,14 +93,12 @@
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.gvBillInfo.DefaultCellStyle = dataGridViewCellStyle3;
             this.gvBillInfo.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.gvBillInfo.EnableHeadersVisualStyles = false;
             this.gvBillInfo.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.gvBillInfo.Location = new System.Drawing.Point(0, 0);
             this.gvBillInfo.Name = "gvBillInfo";
             this.gvBillInfo.ReadOnly = true;
             this.gvBillInfo.RowHeadersVisible = false;
             this.gvBillInfo.RowTemplate.Height = 35;
-            this.gvBillInfo.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.gvBillInfo.Size = new System.Drawing.Size(936, 267);
             this.gvBillInfo.TabIndex = 3;
             this.gvBillInfo.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
@@ -132,7 +126,7 @@
             // 
             // guna2Panel1
             // 
-            this.guna2Panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(81)))));
+            this.guna2Panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.guna2Panel1.Controls.Add(this.btnUpdate);
             this.guna2Panel1.Controls.Add(this.guna2Panel3);
             this.guna2Panel1.Controls.Add(this.cboProductNameQuantity);
@@ -170,8 +164,10 @@
             this.btnUpdate.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnUpdate.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnUpdate.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnUpdate.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.btnUpdate.ForeColor = System.Drawing.Color.White;
+            this.btnUpdate.FillColor = System.Drawing.Color.Aqua;
+            this.btnUpdate.FillColor2 = System.Drawing.Color.Aqua;
+            this.btnUpdate.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold);
+            this.btnUpdate.ForeColor = System.Drawing.Color.Black;
             this.btnUpdate.Location = new System.Drawing.Point(738, 116);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(135, 45);
@@ -232,17 +228,16 @@
             // cboProductNameQuantity
             // 
             this.cboProductNameQuantity.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.cboProductNameQuantity.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(81)))));
+            this.cboProductNameQuantity.BackColor = System.Drawing.Color.White;
             this.cboProductNameQuantity.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(153)))), ((int)(((byte)(149)))));
             this.cboProductNameQuantity.BorderRadius = 6;
             this.cboProductNameQuantity.Cursor = System.Windows.Forms.Cursors.Hand;
             this.cboProductNameQuantity.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.cboProductNameQuantity.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cboProductNameQuantity.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(81)))));
             this.cboProductNameQuantity.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.cboProductNameQuantity.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.cboProductNameQuantity.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.cboProductNameQuantity.ForeColor = System.Drawing.Color.White;
+            this.cboProductNameQuantity.ForeColor = System.Drawing.Color.Black;
             this.cboProductNameQuantity.ItemHeight = 30;
             this.cboProductNameQuantity.Location = new System.Drawing.Point(336, 66);
             this.cboProductNameQuantity.Name = "cboProductNameQuantity";
@@ -253,22 +248,22 @@
             // cboCustomerIdName
             // 
             this.cboCustomerIdName.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.cboCustomerIdName.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(81)))));
+            this.cboCustomerIdName.BackColor = System.Drawing.Color.White;
             this.cboCustomerIdName.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(153)))), ((int)(((byte)(149)))));
             this.cboCustomerIdName.BorderRadius = 6;
             this.cboCustomerIdName.Cursor = System.Windows.Forms.Cursors.Hand;
             this.cboCustomerIdName.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.cboCustomerIdName.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cboCustomerIdName.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(81)))));
             this.cboCustomerIdName.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.cboCustomerIdName.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.cboCustomerIdName.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.cboCustomerIdName.ForeColor = System.Drawing.Color.White;
+            this.cboCustomerIdName.ForeColor = System.Drawing.Color.Black;
             this.cboCustomerIdName.ItemHeight = 30;
             this.cboCustomerIdName.Location = new System.Drawing.Point(55, 157);
             this.cboCustomerIdName.Name = "cboCustomerIdName";
             this.cboCustomerIdName.Size = new System.Drawing.Size(234, 36);
             this.cboCustomerIdName.TabIndex = 34;
+            this.cboCustomerIdName.SelectedIndexChanged += new System.EventHandler(this.cboCustomerIdName_SelectedIndexChanged);
             // 
             // btnRefresh
             // 
@@ -281,8 +276,10 @@
             this.btnRefresh.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnRefresh.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnRefresh.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnRefresh.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.btnRefresh.ForeColor = System.Drawing.Color.White;
+            this.btnRefresh.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.btnRefresh.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.btnRefresh.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRefresh.ForeColor = System.Drawing.Color.Black;
             this.btnRefresh.Location = new System.Drawing.Point(738, 244);
             this.btnRefresh.Name = "btnRefresh";
             this.btnRefresh.Size = new System.Drawing.Size(135, 45);
@@ -294,6 +291,7 @@
             // 
             this.txtTotalPrice.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.txtTotalPrice.Animated = true;
+            this.txtTotalPrice.BackColor = System.Drawing.Color.White;
             this.txtTotalPrice.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(153)))), ((int)(((byte)(149)))));
             this.txtTotalPrice.BorderRadius = 6;
             this.txtTotalPrice.Cursor = System.Windows.Forms.Cursors.IBeam;
@@ -303,10 +301,9 @@
             this.txtTotalPrice.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtTotalPrice.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtTotalPrice.Enabled = false;
-            this.txtTotalPrice.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(81)))));
             this.txtTotalPrice.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtTotalPrice.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
-            this.txtTotalPrice.ForeColor = System.Drawing.Color.White;
+            this.txtTotalPrice.ForeColor = System.Drawing.Color.Black;
             this.txtTotalPrice.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtTotalPrice.Location = new System.Drawing.Point(336, 249);
             this.txtTotalPrice.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
@@ -322,7 +319,7 @@
             this.label10.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.ForeColor = System.Drawing.Color.White;
+            this.label10.ForeColor = System.Drawing.Color.Black;
             this.label10.Location = new System.Drawing.Point(332, 217);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(86, 21);
@@ -340,8 +337,10 @@
             this.btnInsert.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnInsert.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnInsert.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnInsert.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.btnInsert.ForeColor = System.Drawing.Color.White;
+            this.btnInsert.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.btnInsert.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.btnInsert.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold);
+            this.btnInsert.ForeColor = System.Drawing.Color.Black;
             this.btnInsert.Location = new System.Drawing.Point(738, 52);
             this.btnInsert.Name = "btnInsert";
             this.btnInsert.Size = new System.Drawing.Size(135, 45);
@@ -360,8 +359,10 @@
             this.btnPay.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnPay.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnPay.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnPay.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.btnPay.ForeColor = System.Drawing.Color.White;
+            this.btnPay.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.btnPay.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.btnPay.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPay.ForeColor = System.Drawing.Color.Black;
             this.btnPay.Location = new System.Drawing.Point(543, 245);
             this.btnPay.Name = "btnPay";
             this.btnPay.Size = new System.Drawing.Size(135, 45);
@@ -380,8 +381,10 @@
             this.btnDelete.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnDelete.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnDelete.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnDelete.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.btnDelete.ForeColor = System.Drawing.Color.White;
+            this.btnDelete.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.btnDelete.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.btnDelete.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold);
+            this.btnDelete.ForeColor = System.Drawing.Color.Black;
             this.btnDelete.Location = new System.Drawing.Point(738, 180);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(135, 45);
@@ -393,6 +396,7 @@
             // 
             this.txtQuantity.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.txtQuantity.Animated = true;
+            this.txtQuantity.BackColor = System.Drawing.Color.White;
             this.txtQuantity.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(153)))), ((int)(((byte)(149)))));
             this.txtQuantity.BorderRadius = 6;
             this.txtQuantity.Cursor = System.Windows.Forms.Cursors.IBeam;
@@ -401,10 +405,9 @@
             this.txtQuantity.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.txtQuantity.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtQuantity.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtQuantity.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(81)))));
             this.txtQuantity.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtQuantity.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.txtQuantity.ForeColor = System.Drawing.Color.White;
+            this.txtQuantity.ForeColor = System.Drawing.Color.Black;
             this.txtQuantity.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtQuantity.Location = new System.Drawing.Point(518, 156);
             this.txtQuantity.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
@@ -414,11 +417,13 @@
             this.txtQuantity.SelectedText = "";
             this.txtQuantity.Size = new System.Drawing.Size(160, 36);
             this.txtQuantity.TabIndex = 27;
+            this.txtQuantity.TextChanged += new System.EventHandler(this.txtQuantity_TextChanged);
             // 
             // txtUnitPrice
             // 
             this.txtUnitPrice.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.txtUnitPrice.Animated = true;
+            this.txtUnitPrice.BackColor = System.Drawing.Color.White;
             this.txtUnitPrice.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(153)))), ((int)(((byte)(149)))));
             this.txtUnitPrice.BorderRadius = 6;
             this.txtUnitPrice.Cursor = System.Windows.Forms.Cursors.IBeam;
@@ -428,10 +433,9 @@
             this.txtUnitPrice.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtUnitPrice.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtUnitPrice.Enabled = false;
-            this.txtUnitPrice.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(81)))));
             this.txtUnitPrice.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtUnitPrice.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.txtUnitPrice.ForeColor = System.Drawing.Color.White;
+            this.txtUnitPrice.ForeColor = System.Drawing.Color.DimGray;
             this.txtUnitPrice.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtUnitPrice.Location = new System.Drawing.Point(336, 156);
             this.txtUnitPrice.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
@@ -447,7 +451,7 @@
             this.label8.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.Color.White;
+            this.label8.ForeColor = System.Drawing.Color.Black;
             this.label8.Location = new System.Drawing.Point(514, 122);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(76, 21);
@@ -459,7 +463,7 @@
             this.label9.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.Color.White;
+            this.label9.ForeColor = System.Drawing.Color.Black;
             this.label9.Location = new System.Drawing.Point(332, 122);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(68, 21);
@@ -471,7 +475,7 @@
             this.label7.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.White;
+            this.label7.ForeColor = System.Drawing.Color.Black;
             this.label7.Location = new System.Drawing.Point(332, 32);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(126, 21);
@@ -482,6 +486,7 @@
             // 
             this.txtDateTime.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.txtDateTime.Animated = true;
+            this.txtDateTime.BackColor = System.Drawing.Color.White;
             this.txtDateTime.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(153)))), ((int)(((byte)(149)))));
             this.txtDateTime.BorderRadius = 6;
             this.txtDateTime.Cursor = System.Windows.Forms.Cursors.IBeam;
@@ -491,10 +496,9 @@
             this.txtDateTime.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtDateTime.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtDateTime.Enabled = false;
-            this.txtDateTime.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(81)))));
             this.txtDateTime.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtDateTime.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.txtDateTime.ForeColor = System.Drawing.Color.White;
+            this.txtDateTime.ForeColor = System.Drawing.Color.Black;
             this.txtDateTime.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtDateTime.Location = new System.Drawing.Point(55, 249);
             this.txtDateTime.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
@@ -505,13 +509,14 @@
             this.txtDateTime.SelectedText = "";
             this.txtDateTime.Size = new System.Drawing.Size(158, 36);
             this.txtDateTime.TabIndex = 19;
+            this.txtDateTime.TextChanged += new System.EventHandler(this.txtDateTime_TextChanged);
             // 
             // label5
             // 
             this.label5.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.White;
+            this.label5.ForeColor = System.Drawing.Color.Black;
             this.label5.Location = new System.Drawing.Point(51, 217);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(78, 21);
@@ -523,7 +528,7 @@
             this.label3.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.ForeColor = System.Drawing.Color.Black;
             this.label3.Location = new System.Drawing.Point(51, 122);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(118, 21);
@@ -534,6 +539,7 @@
             // 
             this.txtEmployeeIdName.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.txtEmployeeIdName.Animated = true;
+            this.txtEmployeeIdName.BackColor = System.Drawing.Color.White;
             this.txtEmployeeIdName.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(153)))), ((int)(((byte)(149)))));
             this.txtEmployeeIdName.BorderRadius = 6;
             this.txtEmployeeIdName.Cursor = System.Windows.Forms.Cursors.IBeam;
@@ -543,27 +549,28 @@
             this.txtEmployeeIdName.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtEmployeeIdName.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtEmployeeIdName.Enabled = false;
-            this.txtEmployeeIdName.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(81)))));
             this.txtEmployeeIdName.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtEmployeeIdName.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.txtEmployeeIdName.ForeColor = System.Drawing.Color.White;
+            this.txtEmployeeIdName.ForeColor = System.Drawing.Color.Black;
             this.txtEmployeeIdName.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtEmployeeIdName.Location = new System.Drawing.Point(55, 66);
             this.txtEmployeeIdName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtEmployeeIdName.Name = "txtEmployeeIdName";
             this.txtEmployeeIdName.PasswordChar = '\0';
+            this.txtEmployeeIdName.PlaceholderForeColor = System.Drawing.Color.Black;
             this.txtEmployeeIdName.PlaceholderText = "";
             this.txtEmployeeIdName.ReadOnly = true;
             this.txtEmployeeIdName.SelectedText = "";
             this.txtEmployeeIdName.Size = new System.Drawing.Size(234, 36);
             this.txtEmployeeIdName.TabIndex = 13;
+            this.txtEmployeeIdName.TextChanged += new System.EventHandler(this.txtEmployeeIdName_TextChanged);
             // 
             // label2
             // 
             this.label2.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.ForeColor = System.Drawing.Color.Black;
             this.label2.Location = new System.Drawing.Point(51, 32);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(122, 21);

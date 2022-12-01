@@ -160,6 +160,26 @@ namespace GUI
             //}
         }
 
+        private void txtQuantity_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtEmployeeIdName_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cboCustomerIdName_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtDateTime_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
         private void btnPay_Click(object sender, EventArgs e)
         {
             str = txtEmployeeIdName.Text;

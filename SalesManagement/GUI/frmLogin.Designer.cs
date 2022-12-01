@@ -54,9 +54,9 @@
             // 
             // guna2PictureBox2
             // 
-            this.guna2PictureBox2.Image = global::GUI.Properties.Resources.sales_management_software_500x500;
+            this.guna2PictureBox2.Image = global::GUI.Properties.Resources.sales_order_management_software;
             this.guna2PictureBox2.ImageRotate = 0F;
-            this.guna2PictureBox2.Location = new System.Drawing.Point(0, 0);
+            this.guna2PictureBox2.Location = new System.Drawing.Point(0, -3);
             this.guna2PictureBox2.Name = "guna2PictureBox2";
             this.guna2PictureBox2.Size = new System.Drawing.Size(481, 477);
             this.guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -65,7 +65,8 @@
             // 
             // guna2Panel2
             // 
-            this.guna2Panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(81)))));
+            this.guna2Panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.guna2Panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.guna2Panel2.Controls.Add(this.lblForgotPassword);
             this.guna2Panel2.Controls.Add(this.guna2ControlBox2);
             this.guna2Panel2.Controls.Add(this.btnLogin);
@@ -80,13 +81,14 @@
             this.guna2Panel2.Name = "guna2Panel2";
             this.guna2Panel2.Size = new System.Drawing.Size(430, 477);
             this.guna2Panel2.TabIndex = 3;
+            this.guna2Panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel2_Paint);
             // 
             // lblForgotPassword
             // 
             this.lblForgotPassword.AutoSize = true;
             this.lblForgotPassword.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblForgotPassword.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblForgotPassword.ForeColor = System.Drawing.Color.White;
+            this.lblForgotPassword.ForeColor = System.Drawing.Color.DimGray;
             this.lblForgotPassword.Location = new System.Drawing.Point(229, 309);
             this.lblForgotPassword.Name = "lblForgotPassword";
             this.lblForgotPassword.Size = new System.Drawing.Size(117, 21);
@@ -118,8 +120,10 @@
             this.btnLogin.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnLogin.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnLogin.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnLogin.FillColor = System.Drawing.Color.Aqua;
+            this.btnLogin.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.btnLogin.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.btnLogin.ForeColor = System.Drawing.Color.White;
+            this.btnLogin.ForeColor = System.Drawing.Color.Black;
             this.btnLogin.Location = new System.Drawing.Point(84, 354);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(262, 45);
@@ -144,7 +148,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.ForeColor = System.Drawing.Color.DimGray;
             this.label1.Location = new System.Drawing.Point(125, 308);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(66, 21);
@@ -180,10 +184,9 @@
             this.txtPassword.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.txtPassword.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtPassword.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtPassword.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(81)))));
             this.txtPassword.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtPassword.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.txtPassword.ForeColor = System.Drawing.Color.White;
+            this.txtPassword.ForeColor = System.Drawing.Color.Black;
             this.txtPassword.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtPassword.Location = new System.Drawing.Point(84, 248);
             this.txtPassword.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
@@ -205,10 +208,9 @@
             this.txtEmail.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.txtEmail.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtEmail.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtEmail.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(81)))));
             this.txtEmail.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtEmail.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.txtEmail.ForeColor = System.Drawing.Color.White;
+            this.txtEmail.ForeColor = System.Drawing.Color.Black;
             this.txtEmail.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtEmail.Location = new System.Drawing.Point(84, 187);
             this.txtEmail.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -221,7 +223,9 @@
             // 
             // guna2PictureBox1
             // 
-            this.guna2PictureBox1.Image = global::GUI.Properties.Resources.shopify_100px;
+            this.guna2PictureBox1.BorderRadius = 3;
+            this.guna2PictureBox1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.guna2PictureBox1.Image = global::GUI.Properties.Resources.sale_logo_removebg_preview;
             this.guna2PictureBox1.ImageRotate = 0F;
             this.guna2PictureBox1.Location = new System.Drawing.Point(141, 35);
             this.guna2PictureBox1.Name = "guna2PictureBox1";
@@ -229,6 +233,7 @@
             this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2PictureBox1.TabIndex = 0;
             this.guna2PictureBox1.TabStop = false;
+            this.guna2PictureBox1.Click += new System.EventHandler(this.guna2PictureBox1_Click);
             // 
             // guna2Panel1
             // 

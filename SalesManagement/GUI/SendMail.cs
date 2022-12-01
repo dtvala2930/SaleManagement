@@ -33,13 +33,18 @@ namespace GUI
         {
             // Thay email và password của tài khoản gmail dùng để gửi
             // Cho phép login ứng dụng kém an toàn (nếu tìm không thấy thì dùng mail edu)
-            string loginEmail = "2024801030101@student.tdmu.edu.vn";
-            string loginPassword = "Trung@tftmobile";
+            string loginEmail = "leo.duytan@gmail.com";
+            string loginPassword = "egpsmvfvinvcsskp";
             // Tạo đối tượng để gửi mail truyền email, pass để login
             BUS_Mail mail = new BUS_Mail(loginEmail, loginPassword);
             // Nếu là cập nhật mật khẩu thì true, còn nếu là mật khẩu thì false
             Result = mail.SendMail(email, password, isUpdate);
             pcbLoader.Invoke(new Action(() => Close()));
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

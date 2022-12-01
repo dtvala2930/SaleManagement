@@ -73,6 +73,71 @@ namespace GUI
             LoadData();
         }
 
+        private void txtName_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtAddress_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtPhoneNumber_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtEmail_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtOldPassword_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtNewPassword_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label10_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void frmAccount_Load(object sender, EventArgs e)
         {
             LoadData();

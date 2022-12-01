@@ -65,7 +65,7 @@
             // 
             // guna2Panel1
             // 
-            this.guna2Panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(81)))));
+            this.guna2Panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.guna2Panel1.Controls.Add(this.guna2GroupBox2);
             this.guna2Panel1.Controls.Add(this.guna2GroupBox1);
             this.guna2Panel1.Controls.Add(this.txtSearch);
@@ -84,6 +84,7 @@
             this.guna2Panel1.Controls.Add(this.txtName);
             this.guna2Panel1.Controls.Add(this.label1);
             this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.guna2Panel1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.guna2Panel1.Location = new System.Drawing.Point(0, 0);
             this.guna2Panel1.Name = "guna2Panel1";
             this.guna2Panel1.Size = new System.Drawing.Size(936, 263);
@@ -116,7 +117,7 @@
             this.radActive.CheckedState.InnerOffset = -4;
             this.radActive.Cursor = System.Windows.Forms.Cursors.Hand;
             this.radActive.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.radActive.ForeColor = System.Drawing.Color.White;
+            this.radActive.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.radActive.Location = new System.Drawing.Point(3, 18);
             this.radActive.Name = "radActive";
             this.radActive.Size = new System.Drawing.Size(101, 25);
@@ -140,7 +141,7 @@
             this.radNonActive.CheckedState.InnerOffset = -4;
             this.radNonActive.Cursor = System.Windows.Forms.Cursors.Hand;
             this.radNonActive.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.radNonActive.ForeColor = System.Drawing.Color.White;
+            this.radNonActive.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.radNonActive.Location = new System.Drawing.Point(110, 18);
             this.radNonActive.Name = "radNonActive";
             this.radNonActive.Size = new System.Drawing.Size(151, 25);
@@ -179,7 +180,7 @@
             this.radEmployee.CheckedState.InnerOffset = -4;
             this.radEmployee.Cursor = System.Windows.Forms.Cursors.Hand;
             this.radEmployee.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.radEmployee.ForeColor = System.Drawing.Color.White;
+            this.radEmployee.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.radEmployee.Location = new System.Drawing.Point(3, 18);
             this.radEmployee.Name = "radEmployee";
             this.radEmployee.Size = new System.Drawing.Size(99, 25);
@@ -203,7 +204,7 @@
             this.radAdmin.CheckedState.InnerOffset = -4;
             this.radAdmin.Cursor = System.Windows.Forms.Cursors.Hand;
             this.radAdmin.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.radAdmin.ForeColor = System.Drawing.Color.White;
+            this.radAdmin.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.radAdmin.Location = new System.Drawing.Point(120, 18);
             this.radAdmin.Name = "radAdmin";
             this.radAdmin.Size = new System.Drawing.Size(85, 25);
@@ -227,10 +228,9 @@
             this.txtSearch.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.txtSearch.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtSearch.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtSearch.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(81)))));
             this.txtSearch.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtSearch.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.txtSearch.ForeColor = System.Drawing.Color.White;
+            this.txtSearch.ForeColor = System.Drawing.Color.Black;
             this.txtSearch.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtSearch.Location = new System.Drawing.Point(668, 209);
             this.txtSearch.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
@@ -254,8 +254,10 @@
             this.btnInsert.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnInsert.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnInsert.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnInsert.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.btnInsert.ForeColor = System.Drawing.Color.White;
+            this.btnInsert.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.btnInsert.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.btnInsert.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold);
+            this.btnInsert.ForeColor = System.Drawing.Color.Black;
             this.btnInsert.Location = new System.Drawing.Point(16, 205);
             this.btnInsert.Name = "btnInsert";
             this.btnInsert.Size = new System.Drawing.Size(135, 45);
@@ -274,8 +276,10 @@
             this.btnRefresh.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnRefresh.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnRefresh.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnRefresh.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.btnRefresh.ForeColor = System.Drawing.Color.White;
+            this.btnRefresh.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.btnRefresh.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.btnRefresh.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRefresh.ForeColor = System.Drawing.Color.Black;
             this.btnRefresh.Location = new System.Drawing.Point(505, 205);
             this.btnRefresh.Name = "btnRefresh";
             this.btnRefresh.Size = new System.Drawing.Size(135, 45);
@@ -294,8 +298,10 @@
             this.btnUpdate.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnUpdate.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnUpdate.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnUpdate.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.btnUpdate.ForeColor = System.Drawing.Color.White;
+            this.btnUpdate.FillColor = System.Drawing.Color.Aqua;
+            this.btnUpdate.FillColor2 = System.Drawing.Color.Aqua;
+            this.btnUpdate.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnUpdate.ForeColor = System.Drawing.Color.Black;
             this.btnUpdate.Location = new System.Drawing.Point(179, 205);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(135, 45);
@@ -308,7 +314,7 @@
             this.label6.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.White;
+            this.label6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label6.Location = new System.Drawing.Point(455, 159);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(84, 21);
@@ -326,8 +332,10 @@
             this.btnDelete.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnDelete.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnDelete.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnDelete.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.btnDelete.ForeColor = System.Drawing.Color.White;
+            this.btnDelete.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.btnDelete.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.btnDelete.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDelete.ForeColor = System.Drawing.Color.Black;
             this.btnDelete.Location = new System.Drawing.Point(342, 205);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(135, 45);
@@ -340,7 +348,7 @@
             this.label5.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.White;
+            this.label5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label5.Location = new System.Drawing.Point(79, 159);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(58, 21);
@@ -359,10 +367,9 @@
             this.txtPhoneNumber.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.txtPhoneNumber.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtPhoneNumber.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtPhoneNumber.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(81)))));
             this.txtPhoneNumber.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtPhoneNumber.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.txtPhoneNumber.ForeColor = System.Drawing.Color.White;
+            this.txtPhoneNumber.ForeColor = System.Drawing.Color.Black;
             this.txtPhoneNumber.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtPhoneNumber.Location = new System.Drawing.Point(563, 96);
             this.txtPhoneNumber.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
@@ -378,7 +385,7 @@
             this.label4.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label4.Location = new System.Drawing.Point(455, 104);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(104, 21);
@@ -397,10 +404,9 @@
             this.txtAddress.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.txtAddress.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtAddress.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtAddress.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(81)))));
             this.txtAddress.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtAddress.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.txtAddress.ForeColor = System.Drawing.Color.White;
+            this.txtAddress.ForeColor = System.Drawing.Color.Black;
             this.txtAddress.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtAddress.Location = new System.Drawing.Point(563, 38);
             this.txtAddress.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
@@ -416,7 +422,7 @@
             this.label3.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label3.Location = new System.Drawing.Point(455, 46);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(60, 21);
@@ -435,10 +441,9 @@
             this.txtEmail.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.txtEmail.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtEmail.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtEmail.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(81)))));
             this.txtEmail.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtEmail.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.txtEmail.ForeColor = System.Drawing.Color.White;
+            this.txtEmail.ForeColor = System.Drawing.Color.Black;
             this.txtEmail.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtEmail.Location = new System.Drawing.Point(145, 96);
             this.txtEmail.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
@@ -454,7 +459,7 @@
             this.label2.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label2.Location = new System.Drawing.Point(79, 104);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(51, 21);
@@ -473,10 +478,9 @@
             this.txtName.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.txtName.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtName.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtName.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(81)))));
             this.txtName.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtName.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.txtName.ForeColor = System.Drawing.Color.White;
+            this.txtName.ForeColor = System.Drawing.Color.Black;
             this.txtName.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtName.Location = new System.Drawing.Point(145, 39);
             this.txtName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
@@ -492,7 +496,7 @@
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label1.Location = new System.Drawing.Point(79, 46);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(59, 21);
@@ -514,11 +518,6 @@
             this.gvEmployee.AllowUserToDeleteRows = false;
             dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
             this.gvEmployee.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
-            this.gvEmployee.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.gvEmployee.BackgroundColor = System.Drawing.Color.White;
-            this.gvEmployee.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.gvEmployee.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            this.gvEmployee.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
             dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 12F);
@@ -528,6 +527,7 @@
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.gvEmployee.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.gvEmployee.ColumnHeadersHeight = 35;
+            this.gvEmployee.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
             dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 12F);
@@ -537,14 +537,12 @@
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.gvEmployee.DefaultCellStyle = dataGridViewCellStyle3;
             this.gvEmployee.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.gvEmployee.EnableHeadersVisualStyles = false;
             this.gvEmployee.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.gvEmployee.Location = new System.Drawing.Point(0, 0);
             this.gvEmployee.Name = "gvEmployee";
             this.gvEmployee.ReadOnly = true;
             this.gvEmployee.RowHeadersVisible = false;
             this.gvEmployee.RowTemplate.Height = 35;
-            this.gvEmployee.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.gvEmployee.Size = new System.Drawing.Size(936, 317);
             this.gvEmployee.TabIndex = 0;
             this.gvEmployee.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;

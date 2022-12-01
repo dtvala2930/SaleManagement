@@ -60,5 +60,10 @@ namespace GUI
             gvBill.DataSource = busBill.ListOfBills();
             LoadGridView();
         }
+
+        private void guna2Panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

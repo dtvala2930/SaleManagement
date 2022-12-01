@@ -153,9 +153,39 @@ namespace GUI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap sale_logo {
+            get {
+                object obj = ResourceManager.GetObject("sale-logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sale_logo_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("sale-logo-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap sales_management_software_500x500 {
             get {
                 object obj = ResourceManager.GetObject("sales_management_software_500x500", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sales_order_management_software {
+            get {
+                object obj = ResourceManager.GetObject("sales-order-management-software", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

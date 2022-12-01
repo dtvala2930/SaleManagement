@@ -56,7 +56,7 @@ namespace GUI
             Image result;
             using (Bitmap original = new Bitmap(path))
             {
-                result = (Bitmap)original.Clone();
+                result = (Bitmap) original.Clone();
 
             };
             return result;
@@ -104,8 +104,8 @@ namespace GUI
             if (open.ShowDialog() == DialogResult.OK)
             {
                 fileAddress = open.FileName;
-                pcbProduct.Image = CloneImage(fileAddress);
                 pcbProduct.ImageLocation = fileAddress;
+                pcbProduct.Image = CloneImage(fileAddress);
                 img = ImageToByteArray(pcbProduct);
             }
         }
@@ -191,7 +191,7 @@ namespace GUI
                     (
                         int.Parse(txtId.Text),
                         txtName.Text,
-                        int.Parse(txtQuantity.Text),
+                        int.Parse(txtQuantity.Text), 
                         int.Parse(txtImportUnitPrice.Text),
                         int.Parse(txtUnitPrice.Text),
                         ImageToByteArray(pcbProduct),
